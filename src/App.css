@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+}
+
+.App {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #780206, #061161);
+  position: relative;
+}
+
+.wrapper {
+  text-align: center;
+  width: 25%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+h1 {
+  color: #5cc8ff;
+  margin-bottom: 50px;
+  transition: all .2s ease;
+}
+
+h1:hover {
+  transform: skewY(5deg)
+}
+.result {
+  height: 60px;
+  width: 100%;
+  background-color: #000000;
+    color: #ffffff;
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+
+}
+
+
+.button {
+  display: block;
+}
+
+button {
+  width: 25%;
+  height: 60px;
+  border: none;
+  color: #5cc8ff;
+  font-size: 30px;
+  background-color: #292f36;
+}
+
+.operator {
+  color: #d63c6b;
+}
